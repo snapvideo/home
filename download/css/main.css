@@ -660,19 +660,16 @@ padding: 1em;
 
 }
 
+.downstep span {
+     width: 50%;
+
+}
+
+
 .downstep figure {
     display: inline-block;padding: 1em 2em 1em 2em;
 }
 
-.downstep figcaption span::before {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 80%;
-    height: 1px;
-    background: rgba(0, 0, 0, 0.1);
-    content: '';
-}
 
 .downstep figcaption h2 {
    margin:1em 0 0 0;font-size:1.8em;color:#333;text-align:center;
@@ -680,7 +677,6 @@ padding: 1em;
 
 .downstep figcaption span {
    position: relative;
-    display: block;
     margin: 1em 0 0 0;
     padding: 1em 0 0 0;
     font-size: 1.0em;
